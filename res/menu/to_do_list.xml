@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.beerlist.BeerListActivity" >
+
+    <item
+        android:id="@+id/menu_item_new_beer"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_new_beer"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
